@@ -1,38 +1,158 @@
+@font-face {
+  font-family: 'ElMessiri-Bold';
+  src: url('../src/Fonts/ElMessiri-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'ElMessiri-Regular';
+  src: url('../src/Fonts/ElMessiri-Regular.ttf') format('truetype');
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+  padding: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh; /* Ensure the app takes up the full height of the viewport */
   flex-direction: column;
   align-items: center;
+  background-image: url("https://img.freepik.com/free-photo/paper-box-packaging-delivery-concept_53876-127190.jpg?w=1060&t=st=1712285279~exp=1712285879~hmac=4f89e08c52e046da0206574ecf516b725699e3c77aceccf2aff7cd1fb4110eef");
+}
+.line {
+  height: 4px;
+  background-color: #8b4513; 
+  margin-bottom: 60px;
+  
+}
+
+
+.card {
+  border: 2px solid #8b4513;
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px; /* Add margin to create space between cards */
+  cursor: pointer;
+  transition: height 0.3s ease;
+}
+
+.card:hover {
+  border-color: #8b4513;
+  background-color: #8b4513;
+  color: #fff;
+}
+.img-container {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+}
+.headi{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.horizontal-img {
+  width: 100%; /* Adjust width as needed */
+  max-width: 800px; /* Adjust max-width as needed */
+  height: auto;
+  margin-bottom: 20px; /* Add margin to create space between the image and the line */
 }
 
-.App-link {
-  color: #61dafb;
+
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'ElMessiri-Regular';
+  text-align: right;
+  font-size: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.icon-container {
+  display: flex;
+  align-items: center;
+  
+}
+
+.plus-icon {
+  font-size: 24px;
+  transition: transform 0.3s ease;
+}
+
+.rotate {
+  transform: rotate(45deg);
+}
+
+.details {
+  margin-top: 10px;
+  border-top: 1px solid #8b4513;
+  padding-top: 10px;
+  opacity: 0; /* Initially hide details */
+  transition: opacity 0.3s ease;
+}
+
+.title {
+  
+  font-family: 'ElMessiri-Bold';
+}
+.cardtitles{
+  font-family: 'ElMessiri-Regular';
+}
+.form-group {
+  margin-bottom: 15px;
+}
+.form-group button {
+  background-color: white;
+  font-size: 16px;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 10px;
+  font-family: 'ElMessiri-Bold';
+  border-color: white;
+}
+.form-group button:hover{
+  background-color: #8b4513;
+  color: #fff;
+  border-color: #fff;
+}
+
+
+
+.form-group label {
+  display: block;
+  font-family: 'ElMessiri-Regular';
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-align: right;
+  margin-right: 5px;
+}
+
+.form-group input {
+  width: 99%;
+  margin-right: 5px;
+  font-family: 'ElMessiri-Regular';
+  padding: 10px;
+  font-size: 16px;
+  text-align: right;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  
+}
+
+.form-group input:disabled {
+  background-color: #f5f5f5;
+  font-family: 'ElMessiri-Regular';
+  cursor: not-allowed;
+  
+}
+
+.card:hover,
+.card.active {
+  border-color: #8b4513;
+  background-color: #8b4513;
+  color: #fff;
+  height: auto;
+}
+.card.active .details {
+  opacity: 1; /* Show details when active */
 }
