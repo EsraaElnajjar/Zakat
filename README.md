@@ -1,3 +1,19 @@
+## Zakaty 
+## is page that help you to calculate the Money of Zakah
+
+## ScreenShots
+![1](https://github.com/EsraaElnajjar/Zakat/assets/114526210/87d22e32-b1b9-4358-9846-34ec9e43cd15)
+
+
+
+![2](https://github.com/EsraaElnajjar/Zakat/assets/114526210/00bb4e33-51a5-4f4f-88bc-ba1d6d45bfb3)
+![3](https://github.com/EsraaElnajjar/Zakat/assets/114526210/577f88ab-f6c8-4ec7-8862-0c66578f33f6)
+![4](https://github.com/EsraaElnajjar/Zakat/assets/114526210/5adf8660-68a2-4b46-a236-31e1ea3180ff)
+![5](https://github.com/EsraaElnajjar/Zakat/assets/114526210/fbf01c3b-4999-4ec2-9f59-cd5f76ec4de6)
+
+## Contact Me
+MailTo: israaelnajjar664@gmail.com
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
