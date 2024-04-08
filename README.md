@@ -3,7 +3,10 @@
 ## Video
 
 
-Uploading Screen Recording - Apr 5, 2024.mp4…
+
+
+https://github.com/EsraaElnajjar/Zakat/assets/114526210/7f8986e1-b072-491a-b7f2-c0e093af781e
+
 
 
 ## ScreenShots
