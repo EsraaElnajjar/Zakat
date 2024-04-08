@@ -1,5 +1,10 @@
 ## Zakaty 
 ## is page that help you to calculate the Money of Zakah
+## Video
+
+
+Uploading Screen Recording - Apr 5, 2024.mp4…
+
 
 ## ScreenShots
 ![1](https://github.com/EsraaElnajjar/Zakat/assets/114526210/87d22e32-b1b9-4358-9846-34ec9e43cd15)
